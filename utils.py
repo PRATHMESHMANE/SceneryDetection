@@ -8,7 +8,7 @@ import streamlit as st
 import tensorflow as tf
 
 from mediapipe.python.solutions.drawing_utils import _normalized_to_pixel_coordinates
-from .modelutils import my_new_model
+
 
 from tensorflow.keras.utils import get_file
 
