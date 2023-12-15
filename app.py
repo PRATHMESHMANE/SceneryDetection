@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 from streamlit_option_menu import option_menu
 from mediapipe.python.solutions.drawing_utils import _normalized_to_pixel_coordinates
-from utils.utils import get_models, get_image_file,  mediapipe_detection, opencv_detection
-from utils.utils import mp_face_detection, mp_drawing, emotion_dict, rescale, enhance_image, enhance_image_with_adaptive_histogram_equalization, enhance_image_with_histogram_equalization, enhance_image_with_unsharp_masking, enhance_image_with_bilateral_filter
+from utils import get_models, get_image_file,  mediapipe_detection, opencv_detection
+from utils import mp_face_detection, mp_drawing, emotion_dict, rescale, enhance_image, enhance_image_with_adaptive_histogram_equalization, enhance_image_with_histogram_equalization, enhance_image_with_unsharp_masking, enhance_image_with_bilateral_filter
 import tensorflow as tf
 from tensorflow.keras.applications.vgg16 import preprocess_input
 from tensorflow.keras.models import Model
