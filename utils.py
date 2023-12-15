@@ -86,7 +86,7 @@ def get_image_file():
         return cv.imdecode(image_file, 1)
     else:
         # read demo image
-        demo_image = "./assets/group1.png"
+        demo_image = "./group1.png"
         return cv.imread(demo_image)
 
 
